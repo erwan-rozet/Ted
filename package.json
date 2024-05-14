@@ -1,0 +1,19 @@
+{
+  "name": "Ted",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/erwan-rozet/Ted.git",
+  "author": "Erwan ROZET <erwan.rozet@outlook.fr>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0"
+  }
+}

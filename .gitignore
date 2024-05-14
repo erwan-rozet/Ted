@@ -1,0 +1,20 @@
+# Dossiers node_modules
+node_modules/
+
+# Fichiers de logs
+logs/
+*.log
+
+# Fichiers de build
+dist/
+build/
+out/
+
+# Fichiers d'environnement
+.env
+
+# Fichiers de configuration locaux
+config/local.js
+
+# Fichiers de sauvegarde
+*.bak
