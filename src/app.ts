@@ -3,6 +3,8 @@ import axios from 'axios'
 
 const server = Fastify()
 
+//just for commit
+
 async function redirectTrafficToCloudflare() {
   try {
     // Configuration de l'appel à l'API Cloudflare pour modifier l'enregistrement DNS
