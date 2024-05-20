@@ -41,10 +41,8 @@ server.get('/healthcheck', async function () {
 
 server.get('/check-other-server', async (request, reply) => {
   try {
-    // const response = await axios.get('192.168.1.200');
-    // await axios.get('192.168.1.211');
-    // await axios.get('192.168.1.210');
-    const response = await axios.get('https://www.google.com');
+    const response = await axios.get('http://100.98.115.53:9090/admin/login.php');
+    // const response = await axios.get('192.168.1.254');
     console.log('response', response);
 
     // Si la requête réussit, le serveur distant est actif
